@@ -1,134 +1,38 @@
-body {
-    margin: 0;
-    background-color: #ff6600;
-    font-family: Arial, sans-serif;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: #ff6600;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 40px;
-}
-
-.logo h1 {
-    margin-left: 10px;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    margin-right: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.search-bar {
-    position: relative;
-    width: 300px;
-}
-
-.search-bar input {
+.container{
+    border: solid black;
     width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: white;
-}
-
-.search-bar button {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.search-bar button i {
-    font-size: 20px;
-    color: #ff6600;
-}
-
-.user-actions {
+    height: 200px;
     display: flex;
-    align-items: center;
+    
+}
+.nav{
+    margin-top: 50px;
+    
 }
 
-.user-actions i {
-    font-size: 20px;
-    margin-right: 10px;
-    color: white;
+
+ul {
+  list-style: none;
+ 
+ 
 }
 
-.user-actions button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-weight: bold;
+li {
+  display: inline;
+  margin-right: 10px; /* optional, adds some spacing between list items */
+  padding: 20px;
+  
+}
+.btn1{
+    
+    height: auto;
+    background-color: #259647;
     cursor: pointer;
-}
 
-.app-button {
-    background-color: #00b894;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
+}
+.btn2{
+    
+    height: auto;
+    background-color: #2535df;
     cursor: pointer;
-    margin-left: 20px;
-}
-
-.app-button i {
-    font-size: 16px;
-    margin-right: 5px;
-}
-
-.language {
-    display: flex;
-    align-items: center;
-}
-
-.language i {
-    font-size: 20px;
-    margin-right: 5px;
-    color: white;
-}
-
-.language span {
-    color: white;
-    font-weight: bold;
-}
-
-.cart {
-    display: flex;
-    align-items: center;
-}
-
-.cart i {
-    font-size: 20px;
-    color: white;
 }
