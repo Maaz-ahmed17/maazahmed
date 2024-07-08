@@ -1,0 +1,80 @@
+.nav1{
+    border: solid black;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+.nav2 
+{border: solid white;
+width: 100%;
+height: fit-content;
+background-color: black;
+display: flex;
+}
+ul {
+    list-style-type: none;
+    margin-left: 30%;
+    padding: 10px;
+  }
+  
+  li {
+    display: inline;
+    padding: 10px; 
+  }
+.btn1{
+    margin: 40px;
+    margin-left: 70%;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+}
+/* .container1{ */
+    /* background-image: url("https://blueflag.com.au/static/8421390de44e12f68b34ad0a5ed3e172/87c05/engine-number.jpg"); */
+    /* border: solid black; */
+
+    
+    /* background-repeat: no-repeat; */
+
+.nav3{
+    border: solid black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 20px;  
+}
+.engine{
+    border: solid black;
+    width: fit-content; 
+}
+.icons{
+    margin-left: 60%;
+}
+
+
+.container1{
+    /* border: solid black; */
+    height: 270px;
+    margin-top: 5%;
+    display: flex;
+    padding-left: 50px;
+
+}
+.para1{
+    margin-top: 90px;
+    margin-left: 0%;
+}
+.head{
+    margin-left: 10%;
+}
+.img1{
+    
+    width: 40%;
+    height: fit-content;
+}
+.btns1{
+    margin-left: 60%;
+}
+.container2{
+    border: solid black;
+    
+}
